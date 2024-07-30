@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 #include "pitx.h"
 
 int main(){
 
+    const char* text = "A beautiful sunset over the mountains.";
+    unsigned int text_length = strlen(text);
+    Metadata metadata = {text_length,0};
     Header header = {MAGIC_NUMBER, VERSION};
-    Metadata metadata = {0,0};
     FILE *file = fopen("example.pitx", "wb");
 
     if(!file){
@@ -23,6 +26,12 @@ int main(){
         fclose(file);
         return 1;
     }
-
+    
+    if(write_text(file, text, text_length) != 0) {
+        perror("Error writing text\n");
+        fclose(file);
+        return 1;
+    }
+    fclose(file);
     return 0;
 }

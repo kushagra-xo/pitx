@@ -16,5 +16,7 @@ typedef struct {
 
 int write_header(FILE *file, Header *header);
 int write_metadata(FILE *file, Metadata *metadata);
+int write_text(FILE *file, const char *text, unsigned int length);
+int write_image(FILE *file, const void *image, unsigned int length);
 
 #endif // PITX_H
