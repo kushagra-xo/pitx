@@ -8,8 +8,9 @@
 
 PITX (Picture with Text) is an innovative file format designed to integrate images with their descriptive text in a single, cohesive file. This format enhances the way we experience and manage visual content, making it easier to connect photos with their stories.
 ![Photos-pana](https://github.com/user-attachments/assets/b7b67bb1-a552-4979-a339-dfa134d82f81)
+
 <p align="center">
-<a href="https://storyset.com/post">Illustrations by Storyset</a>
+<a href="https://storyset.com/" >Illustration by Storyset</a>
 </p>
 
 ## The Inspiration
