@@ -1,4 +1,9 @@
 # PITX File Format
+
+[![C](https://img.shields.io/badge/Programming%20Language-C-pink?style=for-the-badge)](https://en.wikipedia.org/wiki/C_(programming_language))
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/kushagra-xo/pitx?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/kushagra-xo/pitx?style=for-the-badge)
+
 ## Overview
 
 PITX (Picture with Text) is an innovative file format designed to integrate images with their descriptive text in a single, cohesive file. This format enhances the way we experience and manage visual content, making it easier to connect photos with their stories.
